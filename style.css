@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  background-color: rgb(218, 193, 241);
+  padding-top: 35px;
+  height: 120px;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 3px 3px 7px rgb(151, 105, 168);
+}
+
+li {
+  width: 330px;
+  float: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li :hover {
+  background-color: rgb(218, 193, 241);
+}
+
+table tr td img {
+  width: 350px;
+}
+
+.hlavni {
+  text-align: center;
+}
+
+.nadpisy {
+  font-size: 20px;
+  text-shadow: 2px 2px 4px rgb(192, 185, 185);
+  text-align: center;
+  padding-top: 20px;
+  list-style: none;
+  color: black;
+}
+
+.clear {
+  clear: both;
+}
+
+.hlavnifoto {
+  text-align: center;
+
+  border: 3px solid rgb(218, 193, 241);
+  box-shadow: 3px 3px 7px rgb(151, 105, 168);
+}
+
+.uvod {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+}
+
+.predstaveni {
+  padding-top: 30px;
+  line-height: 180%;
+}
+
+.ukazkaprace {
+  text-align: center;
+  border: 3px solid rgb(218, 193, 241);
+  box-shadow: 3px 3px 7px rgb(151, 105, 168);
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.odsazeni {
+  padding-top: 50px;
+}
+
+#kontaktfoto {
+  padding-top: 50px;
+  padding-left: 30px;
+  padding-right: 120px;
+  float: left;
+}
+
+#kontaktemail {
+  padding-top: 50px;
+}
